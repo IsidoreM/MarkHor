@@ -1,0 +1,123 @@
+body {
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+#section1 {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  background-image: url("./assets/images/grouped-makeup-products-brushes.jpg");
+  background-size: cover;
+  height: 500px;
+}
+.logo {
+  position: relative;
+  top: -15px;
+  left: 0px;
+}
+header {
+  height: 100 px;
+  margin-left: 110px;
+  margin-right: 110px;
+  display: flex;
+  align-items: center;
+
+  /* padding-bottom: 15px;
+  box-sizing: border-box; */
+}
+ul {
+  margin-left: 150px;
+}
+.fa {
+  position: relative;
+  top: -52px;
+  right: -750px;
+}
+li {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.searchBox {
+  position: relative;
+  top: -35px;
+  right: -650px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  border-left: solid 1px rgb(208, 84, 84);
+}
+/* .search: active {
+  witdh: 150px;
+} */
+.presentation {
+  margin: 100px 110px 10px 500px;
+}
+.links {
+  flex-direction: space-between;
+}
+#shopButton {
+  margin-right: 20px;
+  height: 50px;
+  border-radius: 150px;
+}
+#section2 {
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+#article1 {
+  width: 100%;
+  margin: auto;
+}
+.title {
+  text-align: center;
+}
+.description1 {
+  padding: 5px;
+  text-align: center;
+}
+footer {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.mail,
+.icons {
+  display: flex;
+  align-items: center;
+}
+.copyrigth {
+}
+.mail {
+  margin: auto;
+  width: 190px;
+}
+.icons {
+  gap: 10px;
+  margin: auto;
+  width: 100px;
+  padding-bottom: 20px;
+}
+.cards {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  gap: 20px;
+}
+.card {
+  width: 150px;
+  height: 200px;
+}
+.card > img {
+  width: 130px;
+  height: 150px;
+}
